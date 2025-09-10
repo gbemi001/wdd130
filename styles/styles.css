@@ -38,7 +38,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: #eee solid 1px;
+    border: 1px solid rgb(0 0 0 /0.2);
     padding: 1rem;
     box-shadow: 5px 5px 5px 2px rgb(0 0 0 / 20%);
 }
