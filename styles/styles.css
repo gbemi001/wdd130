@@ -35,18 +35,12 @@ aside img {
     height: auto;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: #eee solid 1px;
     padding: 1rem;
     box-shadow: 5px 5px 5px 2px rgb(0 0 0 / 20%);
-}
-
-main img {
-    width: 150px;
-    height: auto;
-    padding: 1rem;
 }
 
 p {
