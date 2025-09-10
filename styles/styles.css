@@ -12,13 +12,21 @@ nav a {
     text-decoration: none;
 }
 
+h1{
+    color: #333;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid rgb(0 0 0 /0.2);
+    padding: 1rem;
+    box-shadow: 5px 5px 5px 2px rgb(0 0 0 / 20%);
+}
+
 
 main {
     max-width: 400px;
-}
-
-h1{
-    color: #333;
 }
 
 aside {
@@ -33,14 +41,6 @@ aside {
 aside img {
     width:  200px;
     height: auto;
-}
-
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid rgb(0 0 0 /0.2);
-    padding: 1rem;
-    box-shadow: 5px 5px 5px 2px rgb(0 0 0 / 20%);
 }
 
 p {
