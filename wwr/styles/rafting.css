@@ -23,7 +23,7 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -98,7 +98,7 @@ li a {
     text-decoration: none;
 }
 
-h2, h3 {
+h2 {
     text-align: center;
 }
 
@@ -115,10 +115,6 @@ h2, h3 {
     border-radius: 5px;
 }
 
-h3 {
-    margin-bottom: 20px;
-}
-
 .figures img {
     width: 110px;
     height: 70px;
@@ -129,12 +125,13 @@ figure {
   display: inline-block;
   text-align: center;    
   margin-left: 20px; 
+  margin-top: 1rem;
 }          
 
 figcaption {
   font-size: 0.9rem;     
   color: #555;           
-  margin-top: 0.5em;     
+  margin-top: 0.2rem;     
 }
 
 footer {
