@@ -140,10 +140,5 @@ figcaption {
 footer {
     display: flex;
     align-items: center;
-    gap: 16px;
-}
-
-footer p {
-    justify-content: center;
-    margin-left: 200px;
+    justify-content: space-between;
 }
