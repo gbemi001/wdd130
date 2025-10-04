@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="contact" content="Contact page for TideSide Rafting Group">
+    <meta name="author" content="Oluwagbemi Yoloye">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header class="grid">
+        <img src="images/rafting-logo.png" alt="rafting company logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>TideSide Rafting Group</h2>
+            <p>456 Tyne Street</p>
+            <p>Newcastle, UK</p>
+            <p>+44 749 9000</p>
+            <p>info@tidesiderafting.com</p>
+        </section>
+        <section>
+            <div class="map-and-form">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15693.21477031961!2d7.427320399999999!3d10.4767083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1759573398662!5m2!1sen!2sng"
+                    width="300" height="415" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <form>
+                    <div class="form-item column1">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+                    <fieldset>
+                        <legend>Message <br>Purpose</legend>
+                        <div class="column2">
+                            <input type="radio" id="inquiry" name="reason" value="inquiry" required>
+                            <label for="inquiry">General Inquiry</label><br>
+                        </div>
+                        <div class="column2">
+                            <input type="radio" id="booking" name="reason" value="booking">
+                            <label for="booking">Reservation Question</label><br>
+                        </div>
+                        <div class="column2">
+                            <input type="radio" id="feedback" name="reason" value="feedback">
+                            <label for="feedback">Website Suggestion</label><br>
+                        </div>
+                    </fieldset>
+
+                    <div class="form-item">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Your message here..."
+                            required></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please Subscribe me to the monthly newsletter</label>
+                    </div>
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </div>
+        </section>
+        <section>
+            <h2>We Are Here to Serve You </h2>
+            <div class=" figures">
+                <figure>
+                    <img src="images/LinkedIn_Image.jpg" alt="Employee Profile">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/LinkedIn_Image.jpg" alt="Employee Profile">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/LinkedIn_Image.jpg" alt="Employee Profile">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2025 ** TideSide Rafting Group ** Oluwagbemi Yoloye</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
