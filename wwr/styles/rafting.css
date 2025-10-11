@@ -23,7 +23,7 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1, h2, .newsletter legend {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -129,7 +129,7 @@ h2 {
   margin-top: 1em;
 }
 
-.figures img {
+.figures img{
   display: block;
   margin: 0 auto;
   width: 100px;
@@ -229,4 +229,113 @@ label[for="newsletter"] {
   margin-top: 0;
   vertical-align: middle;
   font-size: 0.8em;
+}
+
+.offerings-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offerings-head h2, .newsletter legend{
+  margin: auto auto 1rem 1rem;
+}
+
+.offerings-head a {
+  margin-right: 1rem;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.offerings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 16px;
+}
+
+.offerings img {
+    width: 220px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.offerings figcaption {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.newsletter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  align-items: center;
+  margin: 1rem;
+}
+
+.newsletter legend {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+form button[class="submit"] {
+  color: #fff;
+  background-color: navy;
+  border-radius: 5px;
+}
+
+.newsletter label {
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.trips {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.trips p {
+  line-height: 1.4;
+  margin-top: 0;
+}
+
+.trips img {
+  margin-top: 0.8rem;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+th, td {
+    border: 1px solid var(--secondary-color);
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: var(--secondary-color);
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.table a {
+  float: right;
+  text-decoration: none;
+  font-weight: light;
+  font-style: italic;
+  font-size: medium;
 }
