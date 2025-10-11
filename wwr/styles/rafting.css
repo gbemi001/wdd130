@@ -335,7 +335,7 @@ caption {
 .table a {
   float: right;
   text-decoration: none;
-  font-weight: light;
+  font-weight: 500;
   font-style: italic;
   font-size: medium;
 }
